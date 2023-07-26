@@ -1,3 +1,6 @@
+// bài 1:
+console.log("Bài 1");
+
 // Viết lại vòng lặp reduce() trong Array bằng cách sử dụng Prototype trong Javascript
 console.log("Bài 2:");
 Array.prototype.reduce2 = function (callback, initialValue) {
