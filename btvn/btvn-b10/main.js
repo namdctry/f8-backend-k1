@@ -6,7 +6,6 @@ function sum(...rest) {
     if (isNaN(value)) {
       throw new Error("dữ liệu truyền vào không hợp lệ");
     }
-    console.log(typeof value);
     sum += value;
   }
   return sum;
@@ -19,14 +18,14 @@ console.log("Bài 2 viết bằng function");
 // function openFile2(fn) {
 //   setTimeout(function () {
 //     console.log("file đã được mở");
+//     fn();
 //   }, 2000);
-//   fn();
 // }
 // function readFile2(fn) {
 //   setTimeout(function () {
 //     console.log("F8- Học lập trình để đi làm");
+//     fn();
 //   }, 1000);
-//   fn();
 // }
 // function closeFile2() {
 //   setTimeout(function () {
